@@ -78,7 +78,7 @@
         {
 			const element = document.getElementById("element");
 			const texteInput = element.value;
-			//alert(texteInput);
+			alert(texteInput);
 		}
 
         function recupererzonedepart()
@@ -86,7 +86,7 @@
             const monSelect = document.getElementById("depart");
             const depart= monSelect.value;
             console.log(optionSelectionnee);
-            alert(depart);
+            //alert(depart);
         }
 
         function recupererzonearrive()
@@ -94,7 +94,7 @@
             const monSelect = document.getElementById("arriver");
             const arrive = monSelect.value;
             console.log(optionSelectionnee);
-            alert(arrive);
+            //alert(arrive);
         }
 
         function verfierzone()
